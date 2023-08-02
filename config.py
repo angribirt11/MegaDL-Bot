@@ -4,17 +4,24 @@
 
 import os
 
-class Config:
-    API_ID = int(os.environ.get("API_ID", 123))
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    DOWNLOAD_LOCATION = "./DOWNLOADS"
-    TG_MAX_SIZE = 2040108421
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1316963576))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+class Config(object):
 
+    # get a token from @BotFather
+    BOT_TOKEN = "6266997142:AAGNI-X0lHNc4Kt_tH_QdasABCB6Q6YfxsI"
 
+    # Get these values from my.telegram.org
+    API_ID = 23687011
+    API_HASH = "ecb7e7889511fbb8e754d829a4f8fcfe"
+    
+    # TG Ids
+    LOG_CHANNEL = -1891484425
+    OWNER_ID = 911285605
+    # bot username without @
+    BOT_USERNAME = "google_thien_bot"
+
+    # auth users
+    AUTH_USERS = [911285605]
+    
 class TEXT:
   ABOUT = """
 🤖 **Name:** {bot_name}
