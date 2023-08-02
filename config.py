@@ -7,7 +7,7 @@ import os
 class Config(object):
 
     # get a token from @BotFather
-    BOT_TOKEN = "6266997142:AAGNI-X0lHNc4Kt_tH_QdasABCB6Q6YfxsI"
+    BOT_TOKEN = "6300831538:AAEo-L5DipXyC0OwKoMzzMsDDK7O5OEI2Pk"
 
     # Get these values from my.telegram.org
     API_ID = 23687011
@@ -23,6 +23,8 @@ class Config(object):
     AUTH_USERS = [911285605]
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     TG_MAX_SIZE = 2040108421
+    UPDATES_CHANNEL = os.environ.get("-1891484425", None)
+
 class TEXT:
   ABOUT = """
 🤖 **Name:** {bot_name}
