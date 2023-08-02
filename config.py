@@ -21,7 +21,8 @@ class Config(object):
 
     # auth users
     AUTH_USERS = [911285605]
-    
+    DOWNLOAD_LOCATION = "./DOWNLOADS"
+    TG_MAX_SIZE = 2040108421
 class TEXT:
   ABOUT = """
 🤖 **Name:** {bot_name}
